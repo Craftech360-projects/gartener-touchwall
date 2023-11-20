@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 
 const mainbg = "/assets/mainbg.png";
-const beginBtn = '/assets/beginbtn.png'
+const beginBtn = "/assets/beginbtn.png";
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
         <p className="text-white font-semibold text-4xl">
           Move from AI-Possible to AI-Proven
         </p>
-        <Link href={'/dashb'}>
-          <Image src={beginBtn} width={200} height={200}/>
+        <Link href={"/dashb"}>
+          <Image src={beginBtn} width={200} height={200} />
         </Link>
       </div>
     </main>

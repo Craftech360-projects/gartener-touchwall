@@ -1,201 +1,197 @@
 {
-    "bg": [
-        {
-            "bgone": "../../public/assets/mainbg.png"
-        }
-    ],
-    "links": [
-        {
-            "name": "manufacture",
-            "link": "/manufacture"
-        },
-        {
-            "name": "finance",
-            "link": "/finance"
-        },
-        {
-            "name": "healthcare",
-            "link": "/healthcare"
-        }
-    ],
-    "pointerone": [
-        {
-            "image": "/assets/circle.png",
-            "name": "one",
-            "position": {
-                "top": "116",
-                "left": "909"
-            },
-            "cardone":"/assets/Finance/1/1A.png",
-            "cardtwo":"/assets/Finance/1/1B.png",
-            "cardposition": 
-            {
-                "top": "415",
-                "left": "485"
-            },
-            "setActive":"false"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "868",
-                "left": "652"
-            },
-            "cardone":"/assets/Finance/2/2A.png",
-            "cardtwo":"/assets/Finance/2/2B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "220",
-                "left": "420"
-            },
-            "cardone":"/assets/Finance/3/3A.png",
-            "cardtwo":"/assets/Finance/3/3B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "713",
-                "left": "1458"
-            },
-            "cardone":"/assets/Finance/4/4A.png",
-            "cardtwo":"/assets/Finance/4/4B.png"
-        }
-    ],
-    "pointertwo": [
-        {
-            "image": "/assets/circle.png",
-            "name": "one",
-            "position": {
-                "top": "116",
-                "left": "909"
-            },
-            "cardone":"/assets/healthcare/1/1A.png",
-            "cardtwo":"/assets/healthcare/1/1B.png",
-            "cardposition": 
-            {
-                "top": "415",
-                "left": "485"
-            },
-            "setActive":"false"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "868",
-                "left": "652"
-            },
-            "cardone":"/assets/healthcare/2/2A.png",
-            "cardtwo":"/assets/healthcare/2/2B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "220",
-                "left": "420"
-            },
-            "cardone":"/assets/healthcare/3/3A.png",
-            "cardtwo":"/assets/healthcare/3/3B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "713",
-                "left": "1458"
-            },
-            "cardone":"/assets/healthcare/4/4A.png",
-            "cardtwo":"/assets/healthcare/4/4B.png"
-        }
-    ],
-    "pointerthree": [
-        {
-            "image": "/assets/circle.png",
-            "name": "one",
-            "position": {
-                "top": "116",
-                "left": "909"
-            },
-            "cardone":"/assets/manufacuring/1/1A.png",
-            "cardtwo":"/assets/manufacuring/1/1B.png",
-            "cardposition": 
-            {
-                "top": "415",
-                "left": "485"
-            },
-            "setActive":"false"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "868",
-                "left": "652"
-            },
-            "cardone":"/assets/manufacuring/2/2A.png",
-            "cardtwo":"/assets/manufacuring/2/2B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "220",
-                "left": "420"
-            },
-            "cardone":"/assets/manufacuring/3/3A.png",
-            "cardtwo":"/assets/manufacuring/3/3B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "713",
-                "left": "1458"
-            },
-            "cardone":"/assets/manufacuring/4/4A.png",
-            "cardtwo":"/assets/manufacuring/4/4B.png"
-        }
-    ],
-    "pointerfour": [
-        {
-            "image": "/assets/circle.png",
-            "name": "one",
-            "position": {
-                "top": "116",
-                "left": "909"
-            },
-            "cardone":"/assets/service/1/1A.png",
-            "cardtwo":"/assets/service/1/1B.png",
-            "cardposition": 
-            {
-                "top": "415",
-                "left": "485"
-            },
-            "setActive":"false"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "868",
-                "left": "652"
-            },
-            "cardone":"/assets/service/2/2A.png",
-            "cardtwo":"/assets/service/2/2B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "220",
-                "left": "420"
-            },
-            "cardone":"/assets/service/3/3A.png",
-            "cardtwo":"/assets/service/3/3B.png"
-        },
-        {
-            "image": "/assets/circle.png",
-            "position": {
-                "top": "713",
-                "left": "1458"
-            },
-            "cardone":"/assets/service/4/4A.png",
-            "cardtwo":"/assets/service/4/4B.png"
-        }
-    ]
+  "bg": [
+    {
+      "bgone": "../../public/assets/mainbg.png"
+    }
+  ],
+  "links": [
+    {
+      "name": "manufacture",
+      "link": "/manufacture"
+    },
+    {
+      "name": "finance",
+      "link": "/finance"
+    },
+    {
+      "name": "healthcare",
+      "link": "/healthcare"
+    }
+  ],
+  "pointerone": [
+    {
+      "image": "/assets/circle.png",
+      "name": "one",
+      "position": {
+        "top": "116",
+        "left": "909"
+      },
+      "cardone": "/assets/Finance/1/1A.png",
+      "cardtwo": "/assets/Finance/1/1B.png",
+      "cardposition": {
+        "top": "415",
+        "left": "485"
+      },
+      "setActive": "false"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "600",
+        "left": "652"
+      },
+      "cardone": "/assets/Finance/2/2A.png",
+      "cardtwo": "/assets/Finance/2/2B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "220",
+        "left": "420"
+      },
+      "cardone": "/assets/Finance/3/3A.png",
+      "cardtwo": "/assets/Finance/3/3B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "713",
+        "left": "1458"
+      },
+      "cardone": "/assets/Finance/4/4A.png",
+      "cardtwo": "/assets/Finance/4/4B.png"
+    }
+  ],
+  "pointertwo": [
+    {
+      "image": "/assets/circle.png",
+      "name": "one",
+      "position": {
+        "top": "116",
+        "left": "909"
+      },
+      "cardone": "/assets/healthcare/1/1A.png",
+      "cardtwo": "/assets/healthcare/1/1B.png",
+      "cardposition": {
+        "top": "415",
+        "left": "485"
+      },
+      "setActive": "false"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "600",
+        "left": "652"
+      },
+      "cardone": "/assets/healthcare/2/2A.png",
+      "cardtwo": "/assets/healthcare/2/2B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "220",
+        "left": "420"
+      },
+      "cardone": "/assets/healthcare/3/3A.png",
+      "cardtwo": "/assets/healthcare/3/3B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "713",
+        "left": "1458"
+      },
+      "cardone": "/assets/healthcare/4/4A.png",
+      "cardtwo": "/assets/healthcare/4/4B.png"
+    }
+  ],
+  "pointerthree": [
+    {
+      "image": "/assets/circle.png",
+      "name": "one",
+      "position": {
+        "top": "116",
+        "left": "909"
+      },
+      "cardone": "/assets/manufacuring/1/1A.png",
+      "cardtwo": "/assets/manufacuring/1/1B.png",
+      "cardposition": {
+        "top": "415",
+        "left": "485"
+      },
+      "setActive": "false"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "600",
+        "left": "652"
+      },
+      "cardone": "/assets/manufacuring/2/2A.png",
+      "cardtwo": "/assets/manufacuring/2/2B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "220",
+        "left": "420"
+      },
+      "cardone": "/assets/manufacuring/3/3A.png",
+      "cardtwo": "/assets/manufacuring/3/3B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "713",
+        "left": "1458"
+      },
+      "cardone": "/assets/manufacuring/4/4A.png",
+      "cardtwo": "/assets/manufacuring/4/4B.png"
+    }
+  ],
+  "pointerfour": [
+    {
+      "image": "/assets/circle.png",
+      "name": "one",
+      "position": {
+        "top": "116",
+        "left": "909"
+      },
+      "cardone": "/assets/service/1/1A.png",
+      "cardtwo": "/assets/service/1/1B.png",
+      "cardposition": {
+        "top": "415",
+        "left": "485"
+      },
+      "setActive": "false"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "600",
+        "left": "652"
+      },
+      "cardone": "/assets/service/2/2A.png",
+      "cardtwo": "/assets/service/2/2B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "220",
+        "left": "420"
+      },
+      "cardone": "/assets/service/3/3A.png",
+      "cardtwo": "/assets/service/3/3B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "713",
+        "left": "1458"
+      },
+      "cardone": "/assets/service/4/4A.png",
+      "cardtwo": "/assets/service/4/4B.png"
+    }
+  ]
 }

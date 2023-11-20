@@ -80,7 +80,7 @@ const Page = () => {
       ))}
       {showAllDetails && (
         <Link
-          href="dashboard/media/result"
+          href="media/result"
           className="absolute bottom-4 right-4"
         >
           <Image src={caseStudy} width={200} height={200} />
