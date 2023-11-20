@@ -1,0 +1,66 @@
+{
+    "bg": [
+        {
+            "bgone": "../../public/assets/mainbg.png"
+        }
+    ],
+    "links": [
+        {
+            "name": "manufacture",
+            "link": "/manufacture"
+        },
+        {
+            "name": "finance",
+            "link": "/finance"
+        },
+        {
+            "name": "healthcare",
+            "link": "/healthcare"
+        }
+    ],
+    "pointer": [
+        {
+            "image": "/assets/circle.png",
+            "name": "one",
+            "position": {
+                "top": "116",
+                "left": "909"
+            },
+            "cardone":"/assets/card11.png",
+            "cardtwo":"/assets/card11.png",
+            "cardposition": 
+            {
+                "top": "415",
+                "left": "485"
+            },
+            "setActive":"false"
+        },
+        {
+            "image": "/assets/circle.png",
+            "position": {
+                "top": "868",
+                "left": "652"
+            },
+            "cardone":"/assets/card12.png",
+            "cardtwo":"/assets/card11.png"
+        },
+        {
+            "image": "/assets/circle.png",
+            "position": {
+                "top": "220",
+                "left": "420"
+            },
+            "cardone":"/assets/card13.png",
+            "cardtwo":"/assets/card11.png"
+        },
+        {
+            "image": "/assets/circle.png",
+            "position": {
+                "top": "713",
+                "left": "1458"
+            },
+            "cardone":"/assets/card14.png",
+            "cardtwo":"/assets/card11.png"
+        }
+    ]
+}
