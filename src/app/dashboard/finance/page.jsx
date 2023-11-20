@@ -1,16 +1,15 @@
-
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 const bg1 = "/assets/bg1.png";
 import data from "../../../data/main.json";
-import Link from "next/link"
+import Link from "next/link";
 
 const card = "/assets/card11.png";
-const caseStudy = '/assets/Finance/Case study/Case study.png'
+const caseStudy = "/assets/Finance/Case study/Case study.png";
 
 const Page = () => {
-  const dataL = data.pointer;
+  const dataL = data.pointerone;
   const [activeItems, setActiveItems] = useState([]);
   const [showDetailsContainers, setShowDetailsContainers] = useState([]);
   const [showAllDetails, setShowAllDetails] = useState(false);
@@ -43,10 +42,9 @@ const Page = () => {
 
   return (
     <div className="w-screen h-screen">
-        <div className="w-full h-full">
+      <div className="w-full h-full">
         <Image src={bg1} fill className="-z-10" />
-        </div>
-      
+      </div>
 
       {dataL.map((item, index) => (
         <div
@@ -80,9 +78,11 @@ const Page = () => {
           )}
         </div>
       ))}
-
       {showAllDetails && (
-        <Link href="dashb/result" className=" absolute bottom-4 right-4">
+        <Link
+          href={`dashb/sublinks/${result}`}
+          className="absolute bottom-4 right-4"
+        >
           <Image src={caseStudy} width={200} height={200} />
         </Link>
       )}
@@ -91,5 +91,3 @@ const Page = () => {
 };
 
 export default Page;
-
-
