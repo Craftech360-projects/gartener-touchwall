@@ -65,13 +65,13 @@ const Page = () => {
 
           {activeItems[index] && (
             <div
-              className="details-container"
+              className="details-container flex items-start"
               onClick={() => handleDetailsContainerClick(index)}
             >
               <Image src={item.cardone} width={400} height={400} />
               {showDetailsContainers[index] && (
                 <div className="additional-div">
-                  <Image src={item.cardtwo} width={400} height={400} />
+                  <Image src={item.cardtwo} width={300} height={300} />
                 </div>
               )}
             </div>
