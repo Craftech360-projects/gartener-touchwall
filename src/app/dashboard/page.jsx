@@ -23,7 +23,8 @@ const Page = () => {
     // You can perform any custom logic here before navigating
     console.log(`Navigating to ${link}`);
     // Use window.location.href to navigate
-    window.location.href = `http://localhost:3000/dashboard/${link}`;
+    // window.location.href = `http://localhost:3000/dashboard/${link}`;
+    window.location.href = `https://gartener-touchwall.vercel.app/dashboard/${link}`;
   };
 
   return (
