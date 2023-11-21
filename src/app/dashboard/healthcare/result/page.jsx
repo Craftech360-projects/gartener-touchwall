@@ -14,14 +14,14 @@ const page = () => {
       </div>
       <div className=" w-[80vw] h-[70vh] flex justify-center items-center absolute top-[16%] left-[10%] rounded-[20px] border backdrop-blur-lg bg-white/30">
         <div className="w-[50%] flex justify-center items-center flex-col">
-          <div className="w-[600px] h-[300px]  rounded-2xl">
+          <div className="w-[600px] h-[300px]  rounded-2xl" style={{backgroundImage: `url(${caseStudy2})`, backgroundSize:`cover`}}>
           </div>
-          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/bcb-medical-it-transformationc.htm#collapse&pdf-overlay=//www.delltechnologies.com/asset/en-us/solutions/apex/customer-stories-case-studies/dell-technologies-bcb-medical-customer-story.pdf"} className="w-[600px] h-[300px] mt-5 text-white" style={{backgroundImage: `url(${caseStudy2})`, backgroundSize:`cover`}}><p className="text-[28px]">BCB Medical is a Finnish healthcare software-as-a-service company gathering and analyzing clinical data. BCB Medical wanted a solution that is highly effective, provide access to cutting-edge IT and offer cloud like simplicity and predictability for ease of planning.</p></Link>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/bcb-medical-it-transformationc.htm#collapse&pdf-overlay=//www.delltechnologies.com/asset/en-us/solutions/apex/customer-stories-case-studies/dell-technologies-bcb-medical-customer-story.pdf"} className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">BCB Medical is a Finnish healthcare software-as-a-service company gathering and analyzing clinical data. BCB Medical wanted a solution that is highly effective, provide access to cutting-edge IT and offer cloud like simplicity and predictability for ease of planning.</p></Link>
         </div>
         <div className="w-[50%] flex justify-center items-center flex-col">
-          <div className="w-[600px] h-[300px]  rounded-2xl">
+          <div className="w-[600px] h-[300px]  rounded-2xl" style={{backgroundImage: `url(${caseStudy})`, backgroundSize:`cover`}}>
           </div>
-          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/n-health-security.htm#collapse&pdf-overlay=//www.delltechnologies.com/asset/en-us/products/data-protection/customer-stories-case-studies/dell-technologies-n-health-customer-profile.pdf"} className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]" style={{backgroundImage: `url(${caseStudy})`, backgroundSize:`cover`}}>N Health modernizes its infrastructure on storage solutions from Dell Technologies to fortify security, provide caregivers with data to fuel decisions, deliver excellent patient experiences and drive regional expansion.</p></Link>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/n-health-security.htm#collapse&pdf-overlay=//www.delltechnologies.com/asset/en-us/products/data-protection/customer-stories-case-studies/dell-technologies-n-health-customer-profile.pdf"} className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">N Health modernizes its infrastructure on storage solutions from Dell Technologies to fortify security, provide caregivers with data to fuel decisions, deliver excellent patient experiences and drive regional expansion.</p></Link>
         </div>
       </div>
       <div className="absolute bottom-10 right-10 bg-yellow-400 px-10 py-3 rounded-3xl">
