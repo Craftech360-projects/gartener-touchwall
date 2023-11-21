@@ -148,6 +148,15 @@
       },
       "cardone": "/assets/manufacuring/4/4A.png",
       "cardtwo": "/assets/manufacuring/4/4B.png"
+    },
+    {
+      "image": "/assets/circle.png",
+      "position": {
+        "top": "453",
+        "left": "1058"
+      },
+      "cardone": "/assets/manufacuring/5/5A.png",
+      "cardtwo": "/assets/manufacuring/5/5B.png"
     }
   ],
   "pointerfour": [
