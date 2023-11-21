@@ -19,7 +19,7 @@ const page = () => {
         <div className="w-[50%] flex justify-center items-center flex-col">
           <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/founders-federal-credit-union-data-protection.htm#collapse"} className="w-[600px] h-[300px] bg-white rounded-2xl" style={{backgroundImage: `url(${caseStudy})`, backgroundSize:`cover`}}>
           </Link>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
+          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">Founders Federal Credit Union builds their customers’ financial wellbeing and grows their company revenues by offering fast, reliable services and emphasizing the value of data</p></div>
         </div>
         
       </div>
