@@ -1,6 +1,7 @@
 import React from "react";
 const bg1 = "/assets/bg1.png";
 import Image from "next/image";
+import Link from "next/link";
 const page = () => {
   return (
     <div className="w-screen h-screen">
