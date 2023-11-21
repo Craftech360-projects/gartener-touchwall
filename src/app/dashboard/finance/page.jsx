@@ -6,7 +6,7 @@ import data from "../../../data/main.json";
 import Link from "next/link";
 
 const card = "/assets/card11.png";
-const caseStudy = "/assets/Finance/Case study/Case study.png";
+const caseStudy = "/public/assets/Finance/Casestudy/Case study.png";
 
 const Page = () => {
   const dataL = data.pointerone;

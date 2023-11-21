@@ -12,7 +12,7 @@ export default function Home() {
         <p className="text-white font-semibold text-4xl">
           Move from AI-Possible to AI-Proven
         </p>
-        <Link href={"/dashb"}>
+        <Link href={"/dashboard"}>
           <Image src={beginBtn} width={200} height={200} />
         </Link>
       </div>
