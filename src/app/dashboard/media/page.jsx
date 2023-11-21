@@ -80,7 +80,7 @@ const Page = () => {
       ))}
       {showAllDetails && (
         <Link
-        href={`finance/result`}
+        href={`media/result`}
         className="absolute bottom-4 right-4 w-48 h-20"
 
       >
