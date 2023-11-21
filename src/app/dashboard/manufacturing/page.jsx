@@ -65,7 +65,7 @@ const Page = () => {
 
           {activeItems[index] && (
             <div
-              className="details-container flex items-start"
+              className="details-container flex flex-col"
               onClick={() => handleDetailsContainerClick(index)}
             >
               <Image src={item.cardone} width={400} height={400} />
