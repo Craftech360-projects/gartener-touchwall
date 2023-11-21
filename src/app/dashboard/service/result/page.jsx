@@ -1,6 +1,8 @@
 import React from "react";
 const bg1 = "/assets/bg1.png";
 import Image from "next/image";
+import Link from "next/link";
+
 const page = () => {
   return (
     <div className="w-screen h-screen">
@@ -11,14 +13,17 @@ const page = () => {
         <div className="w-[50%] flex justify-center items-center flex-col">
           <div className="w-[600px] h-[300px] bg-white rounded-2xl">
           </div>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">As the leader in IT infrastructure for businesses and public-sector organizations in the Nordics and Baltics, Atea wanted to provide customers with greater agility and efficiency and a better ROI.</p></div>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/atea-converged-infrastructure.htm#collapse"} className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">As the leader in IT infrastructure for businesses and public-sector organizations in the Nordics and Baltics, Atea wanted to provide customers with greater agility and efficiency and a better ROI.</p></Link>
         </div>
         <div className="w-[50%] flex justify-center items-center flex-col">
           <div className="w-[600px] h-[300px] bg-white rounded-2xl">
           </div>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">For the Texas Advanced Computing Center (TACC) staff, the key to enabling discoveries that change the world begins in their own backyard.</p></div>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/tacc-high-performance-computing.htm#collapse"} className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">For the Texas Advanced Computing Center (TACC) staff, the key to enabling discoveries that change the world begins in their own backyard.</p></Link>
         </div>
       </div>
+      <div className="absolute bottom-10 right-10 bg-yellow-400 px-10 py-3 rounded-3xl">
+          <Link href={'/dashboard'} className="text-white font-semibold text-2xl">Home</Link>
+        </div>
     </div>
   );
 };

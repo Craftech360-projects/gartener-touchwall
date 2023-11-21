@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-const bg1 = "/assets/bg4.png";
+const bg1 = "/assets/bg55.png";
 import data from "../../../data/main.json";
 import Link from "next/link";
 

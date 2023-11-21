@@ -3,6 +3,7 @@ const bg1 = "/assets/bg1.png";
 const caseStudy= "/assets/Finance/Casestudy/financeCaseStudy.png"
 const caseStudy2= "/assets/Finance/Casestudy/financeCaseStudy2.jpeg"
 import Image from "next/image";
+import Link from "next/link"
 const page = () => {
   return (
     <div className="w-screen h-screen">
@@ -11,18 +12,20 @@ const page = () => {
       </div>
       <div className=" w-[80vw] h-[70vh] flex justify-center items-center absolute top-[16%] left-[10%] rounded-[20px] border backdrop-blur-lg bg-white/30">
         <div className="w-[50%] flex justify-center items-center flex-col "  >
-          <div className="w-[600px] h-[300px] bg-white rounded-2xl" style={{backgroundImage: `url(${caseStudy2})`, backgroundSize:`cover`}}>
-            
-          </div>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/caja-morelia-valladolid.htm#collapse"} className="w-[600px] h-[300px] bg-white rounded-2xl" style={{backgroundImage: `url(${caseStudy2})`, backgroundSize:`cover`}}>    
+          </Link>
+          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
         </div>
         <div className="w-[50%] flex justify-center items-center flex-col">
-          <div className="w-[600px] h-[300px] bg-white rounded-2xl" style={{backgroundImage: `url(${caseStudy})`, backgroundSize:`cover`}}>
-            
-          </div>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/founders-federal-credit-union-data-protection.htm#collapse"} className="w-[600px] h-[300px] bg-white rounded-2xl" style={{backgroundImage: `url(${caseStudy})`, backgroundSize:`cover`}}>
+          </Link>
+          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[28px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
         </div>
+        
       </div>
+      <div className="absolute bottom-10 right-10 bg-yellow-400 px-10 py-3 rounded-3xl">
+          <Link href={'/dashboard'} className="text-white font-semibold text-2xl">Home</Link>
+        </div>
     </div>
   );
 };

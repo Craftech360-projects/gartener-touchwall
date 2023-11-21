@@ -17,6 +17,8 @@ const beginBtn = "/assets/beginbtn.png";
 const finance = "/assets/finance.png";
 const healthcare = "/assets/healthcare.png";
 const manufacturing = "/assets/manufacturing.png";
+const media = "/assets/media.png";
+const service = "/assets/servicess.png";
 
 const Page = () => {
   const handleSlideClick = (link) => {
@@ -72,6 +74,28 @@ const Page = () => {
           onClick={() => handleSlideClick("manufacturing")}
           style={{
             backgroundImage: `url(${manufacturing})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            width: "100vw",
+            height: "50vh",
+          }}
+        ></SwiperSlide>
+
+<SwiperSlide
+          onClick={() => handleSlideClick("media")}
+          style={{
+            backgroundImage: `url(${media})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            width: "100vw",
+            height: "50vh",
+          }}
+        ></SwiperSlide>
+
+<SwiperSlide
+          onClick={() => handleSlideClick("service")}
+          style={{
+            backgroundImage: `url(${service})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             width: "100vw",
