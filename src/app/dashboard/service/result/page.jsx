@@ -11,12 +11,12 @@ const page = () => {
         <div className="w-[50%] flex justify-center items-center flex-col">
           <div className="w-[600px] h-[300px] bg-white rounded-2xl">
           </div>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
+          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">As the leader in IT infrastructure for businesses and public-sector organizations in the Nordics and Baltics, Atea wanted to provide customers with greater agility and efficiency and a better ROI.</p></div>
         </div>
         <div className="w-[50%] flex justify-center items-center flex-col">
           <div className="w-[600px] h-[300px] bg-white rounded-2xl">
           </div>
-          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">Learn how Caja Morelia Valladolid modernized its data center in a hybrid cloud environment on a service-oriented architecture.</p></div>
+          <div className="w-[600px] h-[300px] mt-5 text-white"><p className="text-[32px]">For the Texas Advanced Computing Center (TACC) staff, the key to enabling discoveries that change the world begins in their own backyard.</p></div>
         </div>
       </div>
     </div>

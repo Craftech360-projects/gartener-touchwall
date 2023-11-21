@@ -9,7 +9,7 @@ const card = "/assets/card11.png";
 const caseStudy = "/Casestudy.png";
 
 const Page = () => {
-  const dataL = data.pointerfour;
+  const dataL = data.pointerfive;
   const [activeItems, setActiveItems] = useState([]);
   const [showDetailsContainers, setShowDetailsContainers] = useState([]);
   const [showAllDetails, setShowAllDetails] = useState(false);
