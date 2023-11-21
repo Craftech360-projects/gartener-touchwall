@@ -6,7 +6,7 @@ import data from "../../../data/main.json";
 import Link from "next/link";
 
 const card = "/assets/card11.png";
-const caseStudy = "/assets/Finance/Case study/Case study.png";
+const caseStudy = "/Casestudy.png";
 
 const Page = () => {
   const dataL = data.pointerfour;
@@ -80,11 +80,12 @@ const Page = () => {
       ))}
       {showAllDetails && (
         <Link
-          href="media/result"
-          className="absolute bottom-4 right-4"
-        >
-          <Image src={caseStudy} width={200} height={200} />
-        </Link>
+        href={`finance/result`}
+        className="absolute bottom-4 right-4 w-48 h-20"
+
+      >
+        <Image src={caseStudy} width={200} height={200} />
+      </Link>
       )}
     </div>
   );

@@ -6,7 +6,7 @@ import data from "../../../data/main.json";
 import Link from "next/link";
 
 const card = "/assets/card11.png";
-const caseStudy = "/public/assets/Finance/Casestudy/Case study.png";
+const caseStudy = "/Casestudy.png";
 
 const Page = () => {
   const dataL = data.pointerone;
@@ -81,7 +81,8 @@ const Page = () => {
       {showAllDetails && (
         <Link
           href={`finance/result`}
-          className="absolute bottom-4 right-4"
+          className="absolute bottom-4 right-4 w-48 h-20"
+
         >
           <Image src={caseStudy} width={200} height={200} />
         </Link>
