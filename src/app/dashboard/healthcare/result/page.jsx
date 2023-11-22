@@ -5,6 +5,7 @@ import Link from "next/link"
 
 const caseStudy= "/assets/h1.webp"
 const caseStudy2= "/assets/h2.png"
+const caseStudy3= "/assets/gen22.png"
 
 const page = () => {
   return (
@@ -27,7 +28,7 @@ patients.</p></div>
         </div>
 
         <div className="w-[17%] flex justify-center items-center flex-col">
-          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/n-health-security.htm#collapse&pdf-overlay=//www.delltechnologies.com/asset/en-us/products/data-protection/customer-stories-case-studies/dell-technologies-n-health-customer-profile.pdf"} className="w-[300px] h-[300px] rounded-2xl" style={{backgroundImage: `url(${caseStudy})`, backgroundSize:`cover`}}>
+          <Link href={"https://www.dell.com/en-us/dt/case-studies-customer-stories/n-health-security.htm#collapse&pdf-overlay=//www.delltechnologies.com/asset/en-us/products/data-protection/customer-stories-case-studies/dell-technologies-n-health-customer-profile.pdf"} className="w-[300px] h-[300px] rounded-2xl" style={{backgroundImage: `url(${caseStudy3})`, backgroundSize:`cover`}}>
           </Link>
           <div className="w-[300px] h-[300px] mt-5 text-white"><p className="text-[20px]">N Health modernizes its infrastructure on storage solutions from Dell Technologies to fortify security,provide caregivers with data to fuel decisions, deliver excellent patient experiences and drive regional expansion.</p></div>
         </div>
