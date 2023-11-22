@@ -20,7 +20,7 @@
   ],
   "pointerone": [
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "name": "one",
       "position": {
         "top": "116",
@@ -35,7 +35,7 @@
       "setActive": "false"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "600",
         "left": "652"
@@ -44,7 +44,7 @@
       "cardtwo": "/assets/Finance/2/2B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "220",
         "left": "420"
@@ -53,7 +53,7 @@
       "cardtwo": "/assets/Finance/3/3B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "713",
         "left": "1458"
@@ -64,7 +64,7 @@
   ],
   "pointertwo": [
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "name": "one",
       "position": {
         "top": "116",
@@ -79,7 +79,7 @@
       "setActive": "false"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "600",
         "left": "652"
@@ -88,7 +88,7 @@
       "cardtwo": "/assets/healthcare/2/2B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "220",
         "left": "420"
@@ -97,7 +97,7 @@
       "cardtwo": "/assets/healthcare/3/3B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "713",
         "left": "1458"
@@ -108,7 +108,7 @@
   ],
   "pointerthree": [
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "name": "one",
       "position": {
         "top": "116",
@@ -123,7 +123,7 @@
       "setActive": "false"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "600",
         "left": "652"
@@ -132,7 +132,7 @@
       "cardtwo": "/assets/manufacuring/2/2B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "220",
         "left": "420"
@@ -141,7 +141,7 @@
       "cardtwo": "/assets/manufacuring/3/3B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "713",
         "left": "1458"
@@ -150,7 +150,7 @@
       "cardtwo": "/assets/manufacuring/4/4B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "453",
         "left": "1058"
@@ -161,7 +161,7 @@
   ],
   "pointerfour": [
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "name": "one",
       "position": {
         "top": "116",
@@ -176,7 +176,7 @@
       "setActive": "false"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "600",
         "left": "652"
@@ -185,7 +185,7 @@
       "cardtwo": "/assets/service/2/2B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "220",
         "left": "420"
@@ -196,7 +196,7 @@
   ],
   "pointerfive": [
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "name": "one",
       "position": {
         "top": "116",
@@ -211,7 +211,7 @@
       "setActive": "false"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "600",
         "left": "652"
@@ -220,7 +220,7 @@
       "cardtwo": "/assets/Media/2/2B.png"
     },
     {
-      "image": "/assets/circle.png",
+      "image": "/circless.webm",
       "position": {
         "top": "220",
         "left": "420"

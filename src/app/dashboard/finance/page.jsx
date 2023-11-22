@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 const bg1 = "/assets/bg1.png";
+// const bg2 = "/bgbg.mp4";
 import data from "../../../data/main.json";
 import Link from "next/link";
 
@@ -44,6 +45,7 @@ const Page = () => {
     <div className="w-screen h-screen">
       <div className="w-full h-full">
         <Image src={bg1} fill className="-z-10" />
+        
       </div>
 
       {dataL.map((item, index) => (
@@ -60,7 +62,10 @@ const Page = () => {
             className="w-[50px] h-[50px]"
             onClick={() => handleClick(index)}
           >
-            <Image src={item.image} width={50} height={50} />
+            {/* <Image src={item.image} width={50} height={50} /> */}
+            <video autoPlay loop muted width={50} height={50}>
+              <source src={item.image} type="video/webm" />
+            </video>
           </div>
 
           {activeItems[index] && (
@@ -82,7 +87,6 @@ const Page = () => {
         <Link
           href={`finance/result`}
           className="absolute bottom-4 right-4 w-48 h-20"
-
         >
           <Image src={caseStudy} width={200} height={200} />
         </Link>

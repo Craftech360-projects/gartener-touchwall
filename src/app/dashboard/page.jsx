@@ -12,6 +12,7 @@ import Link from "next/link";
 SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 
 const mainbg = "/assets/mainbg.png";
+const mainbg2 = "/bgbg.mp4";
 const beginBtn = "/assets/beginbtn.png";
 
 const finance = "/assets/finance.png";
@@ -30,9 +31,11 @@ const Page = () => {
   };
 
   return (
-    <div className=" mt-40 flex content-center text-center items-center justify-center">
+    <div className="pt-48 flex content-center text-center items-center justify-center">
       <Image src={mainbg} fill />
-
+      {/* <video autoPlay loop muted className="-z-10">
+          <source src={mainbg2} type="video/mp4" />
+      </video> */}
       <Swiper
         navigation
         pagination={{ clickable: true }}
@@ -48,6 +51,7 @@ const Page = () => {
         }}
         slidesPerView={2}
         centeredSlides
+        // className="z-30"
       >
         <SwiperSlide
           onClick={() => handleSlideClick("finance")}
@@ -81,7 +85,7 @@ const Page = () => {
           }}
         ></SwiperSlide>
 
-<SwiperSlide
+        <SwiperSlide
           onClick={() => handleSlideClick("media")}
           style={{
             backgroundImage: `url(${media})`,
@@ -92,7 +96,7 @@ const Page = () => {
           }}
         ></SwiperSlide>
 
-<SwiperSlide
+        <SwiperSlide
           onClick={() => handleSlideClick("service")}
           style={{
             backgroundImage: `url(${service})`,

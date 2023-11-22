@@ -60,7 +60,9 @@ const Page = () => {
             className="w-[50px] h-[50px]"
             onClick={() => handleClick(index)}
           >
-            <Image src={item.image} width={50} height={50} />
+            <video autoPlay loop muted width={50} height={50}>
+              <source src={item.image}  type="video/webm" />
+            </video>
           </div>
 
           {activeItems[index] && (
