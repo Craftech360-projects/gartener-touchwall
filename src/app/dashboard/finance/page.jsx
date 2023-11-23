@@ -63,9 +63,10 @@ const Page = () => {
             // onClick={() => handleClick(index)}
             onClick={() => {
               setTimeout(() => {
-                handleClick(index);
+                handleClick(index)
               }, 3000); 
             }}
+            
           >
             {/* <Image src={item.image} width={50} height={50} /> */}
             <video autoPlay loop muted width={50} height={50}>
@@ -77,6 +78,7 @@ const Page = () => {
             <div
               className="details-container"
               onClick={() => handleDetailsContainerClick(index)}
+              
             >
               <Image src={item.cardone} width={400} height={400} />
               {showDetailsContainers[index] && (
