@@ -64,9 +64,8 @@ const Page = () => {
             onClick={() => {
               setTimeout(() => {
                 handleClick(index)
-              }, 3000); 
+              }, 1000); 
             }}
-            
           >
             {/* <Image src={item.image} width={50} height={50} /> */}
             <video autoPlay loop muted width={50} height={50}>
