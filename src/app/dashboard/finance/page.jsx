@@ -60,7 +60,12 @@ const Page = () => {
           <div
             key={index}
             className="w-[50px] h-[50px]"
-            onClick={() => handleClick(index)}
+            // onClick={() => handleClick(index)}
+            onClick={() => {
+              setTimeout(() => {
+                handleClick(index);
+              }, 3000); 
+            }}
           >
             {/* <Image src={item.image} width={50} height={50} /> */}
             <video autoPlay loop muted width={50} height={50}>
