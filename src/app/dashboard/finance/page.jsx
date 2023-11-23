@@ -64,7 +64,7 @@ const Page = () => {
             onClick={() => {
               setTimeout(() => {
                 handleClick(index)
-              }, 1000); 
+              }, 500); 
             }}
           >
             {/* <Image src={item.image} width={50} height={50} /> */}
