@@ -54,7 +54,11 @@ const Page = () => {
         // className="z-30"
       >
         <SwiperSlide
-          onClick={() => handleSlideClick("finance")}
+          onClick={() =>
+            setTimeout(() => {
+              handleSlideClick("finance");
+            }, 500)
+          }
           style={{
             backgroundImage: `url(${finance})`,
             backgroundSize: "cover",
@@ -64,7 +68,11 @@ const Page = () => {
           }}
         ></SwiperSlide>
         <SwiperSlide
-          onClick={() => handleSlideClick("healthcare")}
+          onClick={() =>
+            setTimeout(() => {
+              handleSlideClick("healthcare");
+            }, 500)
+          }
           style={{
             backgroundImage: `url(${healthcare})`,
             backgroundSize: "cover",
@@ -75,7 +83,11 @@ const Page = () => {
         ></SwiperSlide>
 
         <SwiperSlide
-          onClick={() => handleSlideClick("manufacturing")}
+          onClick={() =>
+            setTimeout(() => {
+              handleSlideClick("manufacturing");
+            }, 500)
+          }
           style={{
             backgroundImage: `url(${manufacturing})`,
             backgroundSize: "cover",
@@ -86,7 +98,11 @@ const Page = () => {
         ></SwiperSlide>
 
         <SwiperSlide
-          onClick={() => handleSlideClick("media")}
+          onClick={() =>
+            setTimeout(() => {
+              handleSlideClick("media");
+            }, 500)
+          }
           style={{
             backgroundImage: `url(${media})`,
             backgroundSize: "cover",
@@ -97,7 +113,11 @@ const Page = () => {
         ></SwiperSlide>
 
         <SwiperSlide
-          onClick={() => handleSlideClick("service")}
+          onClick={() =>
+            setTimeout(() => {
+              handleSlideClick("service");
+            }, 500)
+          }
           style={{
             backgroundImage: `url(${service})`,
             backgroundSize: "cover",

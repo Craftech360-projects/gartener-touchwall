@@ -70,7 +70,11 @@ const Page = () => {
           {activeItems[index] && (
             <div
               className="details-container"
-              onClick={() => handleDetailsContainerClick(index)}
+              onClick={() =>
+                setTimeout(() => {
+                  handleDetailsContainerClick(index);
+                }, 500)
+              }
             >
               <Image src={item.cardone} width={400} height={400} />
               {showDetailsContainers[index] && (
