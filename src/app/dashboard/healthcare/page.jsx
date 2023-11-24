@@ -16,9 +16,11 @@ const Page = () => {
 
   const handleClick = (index) => {
     const newActiveItems = [...activeItems];
-    newActiveItems[index] = !newActiveItems[index];
+    if (!newActiveItems[index]) {
+      newActiveItems[index] = true;
+    }
+    // Update the state with the new array
     setActiveItems(newActiveItems);
-
     // Reset the visibility of other details-containers when an item is clicked
     const newShowDetailsContainers = [...showDetailsContainers];
     newShowDetailsContainers[index] = false;
@@ -61,7 +63,7 @@ const Page = () => {
             onClick={() => handleClick(index)}
           >
             <video autoPlay loop muted width={50} height={50}>
-              <source src={item.image}  type="video/webm" />
+              <source src={item.image} type="video/webm" />
             </video>
           </div>
 
@@ -82,12 +84,11 @@ const Page = () => {
       ))}
       {showAllDetails && (
         <Link
-        href={`healthcare/result`}
-        className="absolute bottom-4 right-4 w-48 h-20"
-
-      >
-        <Image src={caseStudy} width={200} height={200} />
-      </Link>
+          href={`healthcare/result`}
+          className="absolute bottom-4 right-4 w-48 h-20"
+        >
+          <Image src={caseStudy} width={200} height={200} />
+        </Link>
       )}
     </div>
   );
