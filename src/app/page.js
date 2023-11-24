@@ -6,7 +6,7 @@ const beginBtn = "/assets/beginbtn.png";
 
 export default function Home() {
   return (
-    <main className="bg-[url('/assets/mainbg.png')]">
+    <main className="bg-[url('/assets/mainbg.png')] prevent-select">
       <Image src={mainbg} fill />
       <div className="absolute top-[40%] left-[30%] flex justify-center items-center flex-col gap-6">
         <p className="text-white font-semibold text-4xl">
