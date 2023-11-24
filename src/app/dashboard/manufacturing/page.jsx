@@ -32,13 +32,23 @@ const Page = () => {
   const handleDetailsContainerClick = (index) => {
     // Toggle the visibility of the details-container when clicked
     const newShowDetailsContainers = [...showDetailsContainers];
-    newShowDetailsContainers[index] = !newShowDetailsContainers[index];
+    if (!newShowDetailsContainers[index]) {
+      newShowDetailsContainers[index] = true;
+    }
+    //  newShowDetailsContainers[index] = !newShowDetailsContainers[index];
     setShowDetailsContainers(newShowDetailsContainers);
 
     // Check if all details-containers are open
     if (newShowDetailsContainers.every((value) => value)) {
       setShowAllDetails(true);
     }
+  };
+
+  const handleResult = (e) => {
+    e.preventDefault();
+    setTimeout(() => {
+      window.location.href = `https://gartener-touchwall.vercel.app/dashboard/manufacturing/result`;
+    }, 500);
   };
 
   return (
@@ -88,6 +98,7 @@ const Page = () => {
       {showAllDetails && (
         <Link
           href={`manufacturing/result`}
+          onClick={handleResult}
           className="absolute bottom-4 right-4 w-48 h-20"
         >
           <Image src={caseStudy} width={200} height={200} />

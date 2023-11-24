@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 const bg1 = "/assets/bg1.png";
 import Image from "next/image";
@@ -8,6 +9,12 @@ const caseStudy2 = "/assets/h2.png";
 const caseStudy3 = "/assets/gen22.png";
 
 const page = () => {
+  const handleHome = (e) => {
+    e.preventDefault();
+    setTimeout(() => {
+      window.location.href = `https://gartener-touchwall.vercel.app`;
+    }, 500);
+  };
   return (
     <div className="w-screen h-screen">
       <div className="w-full h-full">
@@ -76,7 +83,11 @@ const page = () => {
         </div>
       </div>
       <div className="absolute bottom-10 right-10 bg-yellow-400 px-10 py-3 rounded-3xl">
-        <Link href={"/dashboard"} className="text-white font-semibold text-2xl">
+        <Link
+          href={"/dashboard"}
+          onClick={handleHome}
+          className="text-white font-semibold text-2xl"
+        >
           Home
         </Link>
       </div>
